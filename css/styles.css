@@ -3,12 +3,11 @@ ul {
 }
 
 .body {
-  font-family: "Roboto", "Sans Serif";
-  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 /* Логотип */
 .logo {
-  font-family: "Raleway", "Sans Serif";
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
@@ -30,7 +29,6 @@ ul {
   list-style-type: none;
 }
 .header-link-nav {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -46,7 +44,6 @@ ul {
 }
 
 .header-link-stydio {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -62,7 +59,6 @@ ul {
 }
 
 .header-link-portfolio {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -82,8 +78,6 @@ ul {
 }
 
 .header-contacts-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -106,7 +100,6 @@ ul {
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -116,15 +109,11 @@ ul {
 }
 
 .hero-btn {
-  background: #2196f3;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  background-color: #2196f3;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
@@ -133,8 +122,6 @@ ul {
 /* Особености */
 
 .item-heading {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -144,18 +131,13 @@ ul {
 }
 
 .i-head-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
 }
 /* наші роботи */
-.our-works {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+.subtitle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -166,22 +148,19 @@ ul {
 /* чим ми займоємося */
 
 .work-section {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .our-team {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
+  
   letter-spacing: 0.03em;
   color: #212121;
 }
 
 .people {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -190,58 +169,44 @@ ul {
 }
 
 .work {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 /* Портфолио */
 
-.section-portfolio {
-  background: #e5e5e5;
-}
-
 .portfolio-btn {
-  font-family: "Roboto", sans-serif;
-
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .portfolio-btn:focus {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background: #2196f3;
+  background-color: #2196f3;
 }
 .portfolio-btn:hover {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background: #2196f3;
+  background-color: #2196f3;
 }
 
 .list-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -250,10 +215,8 @@ ul {
 }
 
 .list-project {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -261,7 +224,7 @@ ul {
 /* footer */
 
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .logo-footer {
@@ -274,10 +237,11 @@ ul {
   color: #ffffff;
 }
 
-.residence-address {
-  font-family: "Roboto", sans-serif;
+.address {
   font-style: normal;
-  font-weight: 400;
+}
+
+.residence-address {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -285,11 +249,8 @@ ul {
 }
 
 .address-mail-tel {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
